@@ -1,0 +1,170 @@
+/* NAVBAR */
+#daftarMasuk {
+    background: url(/img/bg-masuk.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+#daftarMasuk .nav-item .nav-link {
+    color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    #daftarMasuk {
+        background: none;
+    }
+
+    #daftarMasuk .nav-item .nav-link {
+        color: rgba(0, 0, 0, 0.65);
+    }
+}
+/* END NAVBAR */
+
+/* HOME */
+#asideHome {
+    background: url(/img/bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#asideHome2 {
+    background: url(/img/bg2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#outlined-text {
+    -webkit-text-stroke: 1px #fff; /* Lebar dan warna garis tepi untuk browser WebKit */
+    /* -webkit-text-fill-color: transparent; Warna teks menjadi transparan untuk browser WebKit */
+}
+/* END HOME */
+
+/* CARI AGEN */
+.cnt-hero-cari-agen .hero-cari-agen {
+    z-index: -99;
+    height: 40vmax;
+    background-image: url(/img/bg3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cnt-hero-cari-agen .form-cek-agen {
+    position: absolute;
+    width: 80%;
+    top: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .cnt-hero-cari-agen .form-cek-agen {
+        top: 30vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cnt-hero-cari-agen .form-cek-agen {
+        top: 40vh;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .cnt-hero-cari-agen .form-cek-agen {
+        top: 30vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cnt-hero-cari-agen .form-cek-agen {
+        top: 50vw;
+    }
+}
+/* END CARI AGEN */
+
+/* TENTANG KAMI */
+.hero-about {
+    position: relative;
+    height: 40vmax;
+    background-image: url(/img/bg4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-about .text-hero-about {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    background-color: #0249bb;
+    color: #fff;
+    border-radius: 50%;
+    padding: 20px 60px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.aside-about {
+    background-image: url(/img/bg5.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* END TENTANG KAMI */
+
+/* LAYANAN */
+.hero-layanan {
+    position: relative;
+    height: 40vmax;
+    background-image: url(/img/bg6.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* END LAYANAN */
+
+/* KEMITRAAN */
+.hero-kemitraan {
+    position: relative;
+    height: 40vmax;
+    background-image: url(/img/bg7.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aside-kemitraan {
+    background-image: url(/img/bg9.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* END KEMITRAAN */
+
+/* KONTAK */
+.hero-kontak {
+    height: 40vmax;
+    background-image: url(/img/bg8.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+}
+
+.aside-kontak {
+    /* height: 40v; */
+    background-image: url(/img/bg10.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aside-kontak2 {
+    height: 40vmax;
+    background-image: url(/img/bg11.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* END KONTAK */
